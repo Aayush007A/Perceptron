@@ -3,3 +3,4 @@ pandas
 numpy
 notebook
 joblib
+logging

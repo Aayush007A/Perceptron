@@ -1,6 +1,7 @@
 from matplotlib import pyplot as plt
 from matplotlib.colors import ListedColormap
 import os
+import numpy as np
 
 def prepare_data(df, target_col="y"):
     X = df.drop(target_col, axis=1)
@@ -10,6 +11,7 @@ def prepare_data(df, target_col="y"):
     return X, y 
 
 def save_plot(df, model, filename="plot.png", plot_dir="plots"):
+    
     def _create_base_plot(df):
         df.plot(kind="scatter", x="x1", y="x2", c="y", s=100, cmap="coolwarm")
         plt.axhline(y=0, color="black", linestyle="--", linewidth=1)
