@@ -1,5 +1,3 @@
 # Example Package
 
-This is a simple example package. You can use
-[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
-to write your content.
+## This is a simple python package that provides you the Perceptron model that can be used for solving the tasks like Simple Linear Regression and Simple Linear Binary Classification .
