@@ -43,11 +43,11 @@ if __name__ == "__main__":
     XNOR = {
         "x1":[0,0,1,1],
         "x2":[0,1,0,1],
-        "y":[1,0,0,1]
+        "y":[0,1,0,1]
     }
 
     ETA = 0.01
-    EPOCHS = 10
+    EPOCHS = 20
     MODELNAME = "XNOR.model"
     PLOTNAME = "xnor_result.png"
 
